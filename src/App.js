@@ -1,24 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
+import universe from './universe.jpg';
+
+const postStyle={
+    image:{
+      maxWidth:'640px',
+      maxHeight:'360px'
+    },
+    text:{
+      maxWidth:'600px'
+    },
+    display: 'flex',
+    maxWidth:'800px',
+    margin:'auto',
+    alignItems: 'center',
+    flexDirection: 'column',
+    border:'solid black 2px'
+}
+
+function FunctionalComponent(props){
+  return(
+    <div style={postStyle}>
+        <p style={postStyle.text}>{props.text}</p>
+        <img src={props.image} style={postStyle.image}/>
+    </div>
+
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <FunctionalComponent 
+            text="Доброго времени суток. Это функциональный компонент. А картинка - это случайная галактика красивого цвета." image={universe}>
+        </FunctionalComponent>
   );
 }
 
