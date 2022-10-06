@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/task20.github.io/static/css/main.1ec1f1f2.css",
+    "main.js": "/task20.github.io/static/js/main.dc9e85d2.js",
+    "static/js/787.62477e86.chunk.js": "/task20.github.io/static/js/787.62477e86.chunk.js",
+    "static/media/universe2.jpeg": "/task20.github.io/static/media/universe2.a1517d38e601c37f0b35.jpeg",
+    "static/media/universe.jpg": "/task20.github.io/static/media/universe.ce90cfc139efe5bd0002.jpg",
+    "index.html": "/task20.github.io/index.html",
+    "main.1ec1f1f2.css.map": "/task20.github.io/static/css/main.1ec1f1f2.css.map",
+    "main.dc9e85d2.js.map": "/task20.github.io/static/js/main.dc9e85d2.js.map",
+    "787.62477e86.chunk.js.map": "/task20.github.io/static/js/787.62477e86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ec1f1f2.css",
+    "static/js/main.dc9e85d2.js"
+  ]
+}
