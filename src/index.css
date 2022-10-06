@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.HeaderComponent{
+  margin: auto;
+  max-width: 600px;
+  border: solid black 1px;
+}
+
+.img{
+  max-Width:'640px';
+  max-Height:'360px';
+}
